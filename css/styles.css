@@ -11,3 +11,8 @@ body {
   background-image: url(../img/textbackground.jpg);
   color: black;
 }
+
+footer {
+  background-image: url(../img/textbackground.jpg);
+  color: aqua;
+}
