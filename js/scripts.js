@@ -2,17 +2,11 @@ $(document).ready(function() {
   $('form#inputForm').submit(function(event) {
     event.preventDefault();
     let finalArray = [];
-    let numberArray = [];
     let userNumberInput = 0;
 
     userNumberInput = $('input#userInput').val();
-    console.log(userNumberInput + ' this is userNumberInput')
 
-    numberArray = robogerArray(userNumberInput);
-console.log(numberArray + ' this is numberArray')
-
-    finalArray = mrRoboger(numberArray, userNumberInput);
-console.log(finalArray + ' this is finalArray')
+    finalArray = mrRoboger(userNumberInput);
 
     $('#result').text(finalArray);
   })
@@ -25,29 +19,25 @@ console.log(finalArray + ' this is finalArray')
  ///   Business Logic Below.   ///
 /////////////////////////////////
 
-function robogerArray(number) {
-  let functionArray = [];
-  for (let i = 0; i <= number; i++) {
-    functionArray.push(i);
-  }
-  return functionArray;
-}
 
-function mrRoboger(numberArray, number) {
-  let functionArray = numberArray;
+function mrRoboger(number) {
+  let returnArray = [];
 
   for (let index = 0; index <= number; index++) {
     if (index.toString().includes("3")) {
-      functionArray[index] = "Will you be my neighbor?";
+      returnArray.push("Will you be my neighbor?");
 
     } else if (index.toString().includes("2")) {
-      functionArray[index] = "Boop!";
+      returnArray.push("Boop!");
 
     } else if (index.toString().includes("1")) {
-      functionArray[index] = "Beep!";
+      returnArray.push("Beep!");
 
-    } 
+    } else {
+      // console.log(index + " this is the end of the function");
+      returnArray.push(index);
+    }
   }
-  console.log(functionArray);
-  return functionArray;
+  console.log(returnArray);
+  return returnArray
 }
