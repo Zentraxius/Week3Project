@@ -39,10 +39,3 @@ $(document).ready(function() {
 
 
 
-//     var userInput = $('input#userInput').val();
-//     console.log(userInput + ' this is userInput prefunction')
-
-//     roboResult = mrRoboger(userInput)
-//     $('#result').text(mrRoboger(userInput));
-//   });
-// 
