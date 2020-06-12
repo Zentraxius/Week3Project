@@ -5,6 +5,11 @@ $(document).ready(function() {
 
     inputArray.push($('input#userInput').val())
     console.log(inputArray)
+    
+    let outputArray = mrRoboger(25)
+    console.log('This is the Output', + outputArray)
+
+    $('#result').text(outputArray);
   })
 })
 
@@ -21,8 +26,11 @@ $(document).ready(function() {
     /////////////////////////////////
     
     function mrRoboger(number) {
-      let numberArray = []
-      
+      for(let index = 0; index <= number; index++) {
+        console.log(index);
+      }
+    
+    return number
     }
 
 
