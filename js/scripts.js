@@ -32,6 +32,9 @@ function mrRoboger(number) { // Function name and its parameter
 
     } else if (index.toString().includes("1")) { // If this contains a 1 in string form then->
       returnArray.push("Beep!"); // Replace it with "Beep!"
+    
+    } else if (index.toString().includes("404")) { // Attempted Easter Egg
+      returnArray.push("ERROR") // Partially Successfull
 
     } else {
       returnArray.push(index); // If it doesn't meet any of the above, BACK you go!

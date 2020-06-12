@@ -20,6 +20,54 @@ footer {
 h1 {
   color: red;
 }
+
 label {
   color: red;
+}
+
+.leftBox {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: magicBoxDance;
+  animation-duration: 20s;
+}
+
+@keyframes magicBoxDance {
+  0% {
+    background-color: goldenrod;
+    left: 25px;
+    top: 0px;
+  }
+  25% {
+    background-color: greenyellow;
+    left: 150px;
+    top: 10px;
+  }
+  50% {
+    background-color: aliceblue;
+    left: 175px;
+    top: 200px;
+  }
+  75% {
+    background-color: blue;
+    left: 50px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 25px;
+    top: 0px;
+  }
+}
+
+.rightBox {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: sticky;
+  animation-name: magicBoxDance;
+  animation-duration: 20s;
 }
