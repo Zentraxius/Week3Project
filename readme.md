@@ -23,17 +23,17 @@ When the user inputs a number, the response will be a list of all numbers starti
 ## Specifications (Specs)
 
 1. The program returns a range of numbers from 0 to the users inputted number
-   Input: 4 |->| Output: 0,1,2,3,4
+   Input: 4 |->| Output: 0,1,2,3,4 | Check!
 2. The program replaces all numbers containing a 3 with "Won't you be my neighbor?"
-   Input: 4 |->| Output: 0,1,2,"Won't you be my neighbor?",4
+   Input: 4 |->| Output: 0,1,2,"Won't you be my neighbor?",4 | Check!
 3. The program replaces all numbers containing a 2 with "Boop!"
-   Input: 4 |->| Output: 0,1,"Boop!",3,4
+   Input: 4 |->| Output: 0,1,"Boop!",3,4 | Check!
 4. The program replaces all numbers containing a 1 with "Beep!"
-   Input: 4 |->| Output: 0,"Beep!",2,3,4
+   Input: 4 |->| Output: 0,"Beep!",2,3,4 | Check!
 5. The previous 4 steps all work together
-   Input: 4 |->| Output: 0,"Beep!","Boop!","Won't you be my neighbor?",4
-6. The program only accepts numbers
-   Input: Four |->| Output: Please enter a number
+   Input: 4 |->| Output: 0,"Beep!","Boop!","Won't you be my neighbor?",4 | Check!
+6. The program only accepts numbers|
+   Input: Four |->| Output: Please enter a number | Check!
 
 ## Setup/Installation Requirements
 
@@ -46,7 +46,9 @@ When the user inputs a number, the response will be a list of all numbers starti
 
 ## Known Bugs
 
-No known bugs!
+No known bugs! One slight feature.
+
+> No matter how high the number listed, Mr. Roboger will do his best to reply, your browser may not be able to process the length of his reply. Moderation is advised.
 
 ## Support and contact details
 
@@ -56,6 +58,8 @@ For support please contact clanalia55@gmail.com
 
 HTML | CSS | JavaScript
 Bootstrap | jQuery
+VisualStudioCode |
+jsFiddle | Firefox Dev Tools
 
 ### License
 

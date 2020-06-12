@@ -4,7 +4,6 @@ $(document).ready(function() { // Start your engines
 
     let finalArray = []; // Set the array to empty!
     let userNumberInput = 0; // Yep, that's a number
-
     userNumberInput = $('input#userInput').val(); // Setting the number = to userInput from the form
 
     finalArray = mrRoboger(userNumberInput); // This runs the number through the function and returns it as finalArray
