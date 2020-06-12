@@ -16,3 +16,10 @@ footer {
   background-image: url(../img/textbackground.jpg);
   color: aqua;
 }
+
+h1 {
+  color: red;
+}
+label {
+  color: red;
+}
