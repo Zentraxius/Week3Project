@@ -1,4 +1,13 @@
 body {
   text-align: center;
   background-color: rgb(137, 137, 235);
+  background-image: url(../img/backgroundimg.jpg);
+  background-size: cover;
+}
+
+#result {
+  border: 3px solid black;
+  font-weight: bold;
+  background-image: url(../img/textbackground.jpg);
+  color: black;
 }
