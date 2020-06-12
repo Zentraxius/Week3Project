@@ -8,6 +8,8 @@ Takes numbers from user and returns a range from 0 to the input number, with som
 
 #### By Cody Fritz
 
+### Visit the live site here! https://zentraxius.github.io/Week2Proj/index.html
+
 ## Description
 
 When the user inputs a number, the response will be a list of all numbers starting from 0 up to the number entered by the user, with 3 exceptions.
